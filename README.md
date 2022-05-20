@@ -477,6 +477,19 @@ hiddenFromHomePage = false
 
 ```
 
+#### 支持文章内容中链接自动新窗口打开
+
+将 Params 中的 `hrefblack` 设置为 `true` 即可
+默认为`false`
+
+```toml
++++
+[Params]
+hrefblank=true
++++
+
+```
+
 ## 贡献
 
 欢迎大家贡献，不限于代码、Issue，功能特性，想法等等，期待看到你的 PR 或者 ISSUE。
