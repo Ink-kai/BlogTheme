@@ -3,26 +3,25 @@
 
 # fork https://github.com/JokerQyou/maupassant-hugo
 
-name = "Maupassant Hugo"
+description = "Maupassant 最初是由Cho大神为Typecho平台设计开发的一套响应式模板，简洁、大气，大道至简。"
+features = ["Tag", "Category", "Menu", "Recent Post", "Archives"]
+homepage = "https://github.com/pagecho/maupassant"
 license = "MIT"
 licenselink = ""
-description = "Maupassant 最初是由Cho大神为Typecho平台设计开发的一套响应式模板，简洁、大气，大道至简。"
-homepage = "https://github.com/pagecho/maupassant"
-tags = ["maupassant"]
-features = ["Tag","Category","Menu","Recent Post","Archives"]
 min_version = "0.30"
+name = "Maupassant Hugo"
+tags = ["maupassant"]
 
 [author]
-  name = "飞雪无情"
-  homepage = "https://www.flysnow.org"
+homepage = "https://ink-kai.github.io/"
+name = "InkCat"
 
 [originauthor]
-  name = "Joker Qyou"
-  homepage = "https://mynook.info"
-
+homepage = "https://mynook.info"
+name = "Joker Qyou"
 
 # If porting an existing theme
 [original]
-  name = "pagecho"
-  homepage = "https://chopstack.com/"
-  repo = "https://github.com/pagecho/maupassant"
+homepage = "https://chopstack.com/"
+name = "pagecho"
+repo = "https://github.com/pagecho/maupassant"
