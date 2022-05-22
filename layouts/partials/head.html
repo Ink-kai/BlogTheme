@@ -45,10 +45,6 @@
     {{ end }} {{if .Site.Params.fancybox }}
     <link href="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" rel="stylesheet" />
     {{ end }}
-    <!-- 超链接自动添加_blank -->
-    {{if .Site.Params.hrefblack }}
-    <script type="text/javascript" src='{{ "/js/hrefblank.js" }}'></script>
-    {{ end }}
 
     <!-- custom css -->
     {{ range .Site.Params.customCSS }}
